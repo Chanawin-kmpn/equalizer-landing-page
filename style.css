@@ -356,7 +356,7 @@ footer {
     .wrapper {
         background-image: url(./assets/bg-pattern-1.svg), url(./assets/bg-main-desktop.png);
         background-size: 19.5rem 29.3rem, auto;
-        background-position: top -2rem right -2rem, top -20rem right -8rem;
+        background-position: top -2rem right 0, top -15rem right -8rem;
         padding-inline: 10.31rem;
 
     }
@@ -377,6 +377,7 @@ footer {
 
     .main-content {
         max-width: 54rem;
+        gap: 2.5rem
     }
 
     .main-title {
@@ -402,13 +403,13 @@ footer {
 
     .application-img {
         max-width: 19.5rem;
-        margin-block-start: -15.81rem;
+        margin-block-start: -14.51rem;
         margin-inline-start: 6.37rem;
     }
 
     .download-section {
         max-width: 27.9rem;
-        margin-top: -19.16rem;
+        margin-top: -20rem;
         margin-left: 35.56rem;
         padding: 3.63rem 3.69rem 3rem 3.38rem;
     }
